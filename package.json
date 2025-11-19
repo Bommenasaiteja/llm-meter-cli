@@ -4,7 +4,7 @@
   "description": "CLI tool for LLM Meter - Track and monitor your LLM usage",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/llm-meter-cli.git"
+    "url": "https://github.com/Bommenasaiteja/llm-meter-cli.git"
   },
   "keywords": [
     "llm",
