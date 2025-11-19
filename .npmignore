@@ -1,0 +1,9 @@
+node_modules/
+src/
+*.ts
+*.tsbuildinfo
+test-*.js
+test-*.sh
+tsconfig.json
+.git/
+.github/

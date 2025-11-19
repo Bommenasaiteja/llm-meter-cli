@@ -1,0 +1,50 @@
+{
+  "name": "llm-meter-cli",
+  "version": "0.0.1",
+  "description": "CLI tool for LLM Meter - Track and monitor your LLM usage",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/llm-meter-cli.git"
+  },
+  "keywords": [
+    "llm",
+    "monitoring",
+    "openai",
+    "anthropic",
+    "ollama",
+    "token-tracking",
+    "cost-analysis",
+    "cli"
+  ],
+  "author": "Open Source Contributors",
+  "license": "MIT",
+  "bin": {
+    "llm-meter": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod +x dist/index.js",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "axios": "^1.6.5",
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.3",
+    "commander": "^11.1.0",
+    "date-fns": "^3.3.1",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ]
+}
